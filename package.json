@@ -1,0 +1,46 @@
+{
+  "name": "example-pawjs-sass",
+  "version": "1.0.0",
+  "description": "Example on using Sass with PawJS",
+  "scripts": {
+    "start": "pawjs --env=development start",
+    "build": "pawjs --env=production --config=prod.pawconfig.json build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atyantik/example-pawjs-sass.git"
+  },
+  "author": {
+    "name": "Atyantik Technologies",
+    "email": "admin@atyantik.com",
+    "url": "https://www.atyantik.com/"
+  },
+  "engines": {
+    "node": ">=10.11.0"
+  },
+  "contributors": [
+    {
+      "name": "Tirth Bodawala",
+      "email": "tirthbodawala@atyantik.com",
+      "url": "https://www.atyantik.com/"
+    },
+    {
+      "name": "Yash Thakur",
+      "email": "thakur.yash514@gmail.com",
+      "url": "https://www.yashthakur.in/"
+    }
+  ],
+  "devDependencies": {
+    "@pawjs/pawjs": "^2.2.3",
+    "@pawjs/sass": "^2.1.7"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atyantik/example-pawjs-sass/issues"
+  },
+  "homepage": "https://github.com/Atyantik/example-pawjs-sass#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "classnames": "^2.2.6"
+  }
+}
