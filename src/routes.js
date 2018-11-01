@@ -107,10 +107,6 @@ export default class Routes {
             name: 'apple-mobile-web-app-title',
             content: 'ReactPWA | SASS',
           },
-          {
-            name: 'viewport',
-            content: 'width=device-width, initial-scale=1, maximum-scale=5.0',
-          },
         ],
       });
     });

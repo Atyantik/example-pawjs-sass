@@ -43,7 +43,9 @@ const Home = () => (
 
     <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <div className="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 className="display-4 font-weight-normal">Punny headline</h1>
+        <h1 className="display-4 font-weight-normal">
+          SASS + ReactPWA
+        </h1>
         <p className="lead font-weight-normal">
           And an even wittier subheading to boot. Jumpstart your marketing
           efforts with this example based on Apple&#39;s marketing pages.
@@ -57,8 +59,16 @@ const Home = () => (
     <div className={classNames(styles['flex-md-equal'], 'd-md-flex w-100 my-md-3 pl-md-3')}>
       <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         <div className="my-3 py-3">
-          <h2 className="display-5">Another headline</h2>
-          <p className="lead">And an even wittier subheading.</p>
+          <h2 className="display-5">
+            ReactPWA
+          </h2>
+          <p className="lead">
+            An awesome boilerplate built on top of pluggable&nbsp;
+            <a href="https://github.com/atyantik/pawjs" target="_blank" rel="noreferrer nofollow noopener">PawJS</a>
+          </p>
+          <p>
+            <a href="https://www.reactpwa.com" target="_blank" rel="noreferrer nofollow noopener">#ReactPWA</a>
+          </p>
         </div>
         <div
           className="bg-light shadow-sm mx-auto"
@@ -83,10 +93,8 @@ const Home = () => (
           <h2 className="display-5">Another headline</h2>
           <p className="lead">And an even wittier subheading.</p>
         </div>
-        <div
-          className="bg-dark shadow-sm mx-auto"
-          style={{ width: '80%', height: '300px', borderRadius: '21px 21px 0 0' }}
-        />
+        <script src="https://codefund.io/scripts/fefc6de5-a0ce-46e8-a15d-f43733b5b454/embed.js" />
+        <div id="codefund_ad" />
       </div>
       <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         <div className="my-3 py-3">
@@ -148,6 +156,14 @@ const Home = () => (
 
     <footer className="container py-5">
       <div className="row">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-7586505628408924"
+          data-ad-slot="5652642939"
+          data-ad-format="auto"
+        />
         <div className="col-12 col-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
