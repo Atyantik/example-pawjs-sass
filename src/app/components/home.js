@@ -79,6 +79,9 @@ const Home = () => (
         <div className="my-3 p-3">
           <h2 className="display-5">Another headline</h2>
           <p className="lead">And an even wittier subheading.</p>
+          <p>
+            <a href="https://github.com/atyantik/pawjs" target="_blank" rel="noreferrer nofollow noopener">#PawJS</a>
+          </p>
         </div>
         <div
           className="bg-dark shadow-sm mx-auto"
@@ -156,18 +159,20 @@ const Home = () => (
 
     <footer className="container py-5">
       <div className="row my-3">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-        <ins
-          className="adsbygoogle"
-          style={{ display: 'block' }}
-          data-ad-client="ca-pub-7586505628408924"
-          data-ad-slot="5652642939"
-          data-ad-format="auto"
-        />
+        <div className="col-12 col-md">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-7586505628408924"
+            data-ad-slot="5652642939"
+            data-ad-format="auto"
+          />
+        </div>
       </div>
       <div className="row my-4">
         <div className="col-12 col-md text-center">
-          This is an example of implementation of SASS with ReactPWA.
+          This is an example of implementation of Ant Design with ReactPWA.
           Help us grow further visit&nbsp;
           <a href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
         </div>
