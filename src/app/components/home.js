@@ -155,7 +155,7 @@ const Home = () => (
     </div>
 
     <footer className="container py-5">
-      <div className="row">
+      <div className="row my-3">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
         <ins
           className="adsbygoogle"
@@ -164,6 +164,15 @@ const Home = () => (
           data-ad-slot="5652642939"
           data-ad-format="auto"
         />
+      </div>
+      <div className="row my-4">
+        <div className="col-12 col-md text-center">
+          This is an example of implementation of Ant Design with ReactPWA.
+          Help us grow further visit&nbsp;
+          <a href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
+        </div>
+      </div>
+      <div className="row">
         <div className="col-12 col-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
