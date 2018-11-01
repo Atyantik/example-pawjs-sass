@@ -172,7 +172,7 @@ const Home = () => (
       </div>
       <div className="row my-4">
         <div className="col-12 col-md text-center">
-          This is an example of implementation of Ant Design with ReactPWA.
+          This is an example of implementation of SASS with ReactPWA.
           Help us grow further visit&nbsp;
           <a href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
         </div>
